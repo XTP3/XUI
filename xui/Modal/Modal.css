@@ -1,0 +1,56 @@
+.Modal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+}
+
+.Modal > .Title {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-word;
+    color: #DFE5EF;
+    font-size: 27px;
+    font-size: 1.92857rem;
+    line-height: 2.28571rem;
+    font-weight: 700;
+}
+
+#ModalCloseIcon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 3;
+}
+
+#ModalPanel, #ModalPanelForm, #ModalPanelUnresponsive {
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 2.7px 9px rgba(0,0,0,0.325),0 9.4px 24px rgba(0,0,0,0.225),0 21.8px 43px rgba(0,0,0,0.2);
+    overflow-y: auto;
+}
+
+#ModalPanelUnresponsive {
+    height: auto;
+    max-height: 80%;
+    max-width: 450px;
+}
+
+@media screen and (min-width: 768px) {
+    #ModalPanel, #ModalPanelForm {
+        height: auto;
+        max-height: 80%;
+        min-width: 400px;
+    }
+    #ModalPanel {
+        max-width: 450px;
+    }
+    #ModalPanelForm {
+        max-width: 432px;
+    }
+}

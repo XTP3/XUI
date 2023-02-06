@@ -1,0 +1,72 @@
+.IconButton {
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.IconButton.Cprimary.AF {
+    background-color: var(--primary);
+}
+
+.IconButton.Cprimary.AF:hover {
+    background-color: var(--primary);
+}
+
+.IconButton.Cprimary:hover {
+    background-color: var(--primary-light);
+}
+
+.IconButton.Cprimary.F:hover {
+    background-color: var(--primary);
+}
+
+.IconButton.Csuccess:hover {
+    background-color: var(--success-light);
+}
+
+.IconButton.Csuccess.F:hover {
+    background-color: var(--success);
+}
+
+.IconButton.Cwarning:hover {
+    background-color: var(--warning-light);
+}
+
+.IconButton.Cwarning.F:hover {
+    background-color: var(--warning);
+}
+
+.IconButton.Cdanger:hover {
+    background-color: var(--danger-light);
+}
+
+.IconButton.Cdanger.F:hover {
+    background-color: var(--danger);
+}
+
+.IconButton:hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.IconButton.Ss {
+    height: 24px;
+    width: 24px;
+}
+
+.IconButton.Sm {
+    height: 32px;
+    width: 32px;
+}
+
+.IconButton.Sl {
+    height: 42px;
+    width: 42px;
+}

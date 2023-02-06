@@ -1,0 +1,10 @@
+.PageHeader {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.PageHeader.BottomBar {
+    border-bottom: 1px solid var(--page-header-bottom-bar);
+    padding-bottom: 8px;
+}

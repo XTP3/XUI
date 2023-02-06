@@ -1,0 +1,52 @@
+.PageSection {
+}
+
+.PageSection.PSnone {
+    padding: 0px;
+}
+
+.PageSection.PSs {
+    padding: 0px 6px 0px 6px;
+}
+
+.PageSection.PSm {
+    padding: 0px 10px 0px 10px;
+}
+
+.PageSection.PSl {
+    padding: 0px 14px 0px 14px;
+}
+
+.PageSection.PSxl {
+    padding: 0px 18px 0px 18px;
+}
+
+@media only screen and (min-width : 425px) {
+    .PageSection.PSs {
+        padding: 0px 8px 0px 8px;
+    }
+    .PageSection.PSm {
+        padding: 0px 10px 0px 10px;
+    }
+    .PageSection.PSl {
+        padding: 0px 12px 0px 12px;
+    }
+    .PageSection.PSxl {
+        padding: 0px 14px 0px 14px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .PageSection.PSs {
+        padding: 0px 15px 0px 15px;
+    }
+    .PageSection.PSm {
+        padding: 0px 20px 0px 20px;
+    }
+    .PageSection.PSl {
+        padding: 0px 25px 0px 25px;
+    }
+    .PageSection.PSxl {
+        padding: 0px 35px 0px 35px;
+    }
+}

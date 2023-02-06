@@ -1,0 +1,20 @@
+.Text {
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--text);
+    word-wrap: break-word !important;
+    word-break: break-word;
+    font-weight: 500;
+}
+
+.Text.Ss {
+    font-size: small; /*0.8vh*/
+}
+
+.Text.Sm {
+    font-size: medium;
+}
+
+.Text.Sl {
+    font-size: 1.8vh; /*1.8vh*/
+}

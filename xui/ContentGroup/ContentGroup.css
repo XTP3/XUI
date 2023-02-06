@@ -1,0 +1,96 @@
+.ContentGroup {
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.ContentGroup.Drow.NR {
+    flex-direction: row;
+} 
+
+.ContentGroup.Dcolumn {
+    flex-direction: column;
+}
+
+.ContentGroup.JCstart {
+    justify-content: flex-start;
+}
+
+.ContentGroup.JCend {
+    justify-content: flex-end;
+}
+
+.ContentGroup.JCcenter {
+    justify-content: center;
+}
+
+.ContentGroup.JCspace-between {
+    justify-content: space-between;
+}
+
+.ContentGroup.JCspace-around {
+    justify-content: space-around;
+}
+
+.ContentGroup.JCspace-evenly {
+    justify-content: space-evenly;
+}
+
+.ContentGroup.AIstart {
+    align-items: flex-start;
+}
+
+.ContentGroup.AIstretch {
+    align-items: stretch;
+}
+
+.ContentGroup.AIcenter {
+    align-items: center;
+}
+
+.ContentGroup.AIstart {
+    align-items: flex-start;
+}
+
+.ContentGroup.AIend {
+    align-items: flex-end;
+}
+
+.ContentGroup.RGs {
+    row-gap: 5px;
+}
+
+.ContentGroup.RGm {
+    row-gap: 8px;
+}
+
+.ContentGroup.RGl {
+    row-gap: 18px;
+}
+
+.ContentGroup.RGxl {
+    row-gap: 25px;
+}
+
+.ContentGroup.CGs {
+    column-gap: 5px;
+}
+
+.ContentGroup.CGm {
+    column-gap: 12px;
+}
+
+.ContentGroup.CGl {
+    column-gap: 18px;
+}
+
+.ContentGroup.CGxl {
+    column-gap: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .ContentGroup.Drow.R {
+        flex-direction: row;
+    }
+}

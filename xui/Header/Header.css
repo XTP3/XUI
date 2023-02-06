@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    box-shadow: 0 0.7px 1.4px rgba(0, 0, 0, 0.175), 0 1.9px 4px rgba(0, 0, 0, 0.125), 0 4.5px 10px rgba(0, 0, 0, 0.125);
+    z-index: 999;
+    background: var(--filler-secondary);
+    border-bottom: 1px solid #131417;
+    /*padding: 0px 5px 0px 5px;*/
+    padding: 0px 8px 0px 8px;
+    box-sizing: border-box;
+}
+
+.Header.F {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

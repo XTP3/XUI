@@ -1,0 +1,17 @@
+.HorizontalRule {
+    width: 100%;
+    background-color: var(--horizontal-rule);
+    border-radius: 8px;
+}
+
+.HorizontalRule.Ss {
+    height: 1px;
+}
+
+.HorizontalRule.Sm {
+    height: 5px;
+}
+
+.HorizontalRule.Sl {
+    height: 10px;
+}

@@ -1,0 +1,50 @@
+.ProgressBarWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--filler-secondary);;
+}
+
+.ProgressBarWrapper.Ss {
+    height: 5px;
+}
+
+.ProgressBarWrapper.Sm {
+    height: 10px;
+}
+
+.ProgressBarWrapper.Sl {
+    height: 20px;
+}
+
+.ProgressBarWrapper.Sxl {
+    height: 25px;
+}
+
+.ProgressBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 5px;
+    background-color: var(--primary);
+}
+
+.ProgressBar.Cprimary {
+    background-color: var(--primary);
+}
+
+.ProgressBar.Csuccess {
+    background-color: var(--success);
+}
+
+.ProgressBar.Cwarning {
+    background-color: var(--warning);
+}
+
+.ProgressBar.Cdanger {
+    background-color: var(--danger);
+}

@@ -1,0 +1,35 @@
+:root {
+    --filler-primary: #141519;
+    --filler-secondary: #1D1E24;
+    --primary: #2983ff;
+    --primary-light: rgba(41, 98, 255, 0.2);
+    --success: #1ec120;
+    --success-light: rgba(44, 251, 46, 0.2);
+    --warning: #fbfa2c;
+    --warning-light: rgba(251, 250, 44, 0.2);
+    --danger: #ff2929;
+    --danger-light: rgba(255, 41, 41, 0.2);
+    --font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --button-text: white;
+    --button-error: red;
+    --button-loading: #222428;
+    --button-loading-text: grey;
+    --panel: #1D1E24;
+    --panel-subdued: #1d1e24;
+    --panel-border: #343741;
+    --title: white;
+    --text: white;
+    --horizontal-rule: #7e7e7e;
+    --page-header-bottom-bar: #7e7e7e;
+    --overlay: rgba(0,0,0,0.5);
+    --form-label: #DFE5EF;
+    --form-description: #98A2B3;
+    --field-background: #16171c;
+    --field-color: #DFE5EF;
+    --switch-background: #2e2c2c;
+    --switch-button: #141519;
+    --switch-active-background: #2196F3;
+    --avatar: rgb(238, 120, 157);
+    --tab-bottom: #343741;
+    --tab-active: #2983ff;
+}

@@ -1,0 +1,39 @@
+.Panel {
+    align-items: start;
+    flex-grow: 1;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+.Panel.Pnone {
+    padding: 0px;
+}
+
+.Panel.Ps {
+    padding: 8px;
+}
+
+.Panel.Pm {
+    padding: 16px;
+}
+
+.Panel.Pl {
+    padding: 24px;
+}
+
+.Panel.HS {
+    box-shadow: 0 0.9px 4px -1px rgba(0,0,0,0.2),0 2.6px 8px -1px rgba(0,0,0,0.15),0 5.7px 12px -1px rgba(0,0,0,0.125),0 15px 15px -1px rgba(0,0,0,0.1);
+    background-color: var(--panel);
+}
+
+.Panel.NoGrow {
+    flex-grow: 0;
+}
+
+.Panel.HB {
+    border: 1px solid var(--panel-border);
+}
+
+.Panel.S {
+    background-color: var(--panel-subdued);
+}

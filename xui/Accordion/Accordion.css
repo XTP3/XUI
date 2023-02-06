@@ -1,0 +1,7 @@
+.Accordion {
+    width: 100%;
+}
+
+.AccordionHeader:hover {
+    cursor: pointer;
+}

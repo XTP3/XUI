@@ -1,0 +1,19 @@
+.Spacer {
+    width: 100%;
+}
+
+.Spacer.Ss {
+    height: 5px;
+}
+
+.Spacer.Sm {
+    height: 10px;
+}
+
+.Spacer.Sl {
+    height: 15px;
+}
+
+.Spacer.Sxl {
+    height: 25px;
+}

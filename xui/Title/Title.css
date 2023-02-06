@@ -1,0 +1,19 @@
+.Title {
+    font-family: var(--font-family);
+    font-weight: bold;
+    color: var(--title);
+    word-wrap: break-word !important;
+    word-break: break-word;
+}
+
+.Title.Ss, .Title.Ss > * {
+    font-size: large;
+}
+
+.Title.Sm, .Title.Sm > * {
+    font-size: x-large;
+}
+
+.Title.Sl, .Title.Sl > * {
+    font-size: 2.5rem;
+}

@@ -1,0 +1,23 @@
+.DescriptionListTitle, .DescriptionListDescription {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-word;
+    color: var(--text);
+    font-family: var(--font-family);
+}
+
+.DescriptionListTitle {
+    font-size: 16px;
+    font-size: 1.14286rem;
+    line-height: 1.71429rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 16px;
+}
+
+.DescriptionListDescription {
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.71429rem;
+    margin: 0px;
+}

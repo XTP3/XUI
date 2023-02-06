@@ -1,0 +1,30 @@
+.FormRow {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 8px;
+}
+
+.FormRow.B {
+    margin: 0px;
+}
+
+.FormRowLabel {
+    font-family: var(--font-family);
+    font-size: 0.85714rem;
+    line-height: 1.14286rem;
+    word-wrap: break-word !important;
+    word-break: break-word;
+    color: var(--form-label);
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.FormRowDescription {
+    font-family: var(--font-family);
+    color: var(--form-description);
+    font-size: 0.85714rem;
+    line-height: 1.14286rem;
+    padding-top: 6px;
+}

@@ -1,0 +1,36 @@
+.Tabs {
+    scrollbar-color: rgba(152,162,179,0.5) rgba(0,0,0,0);
+    scrollbar-width: thin;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    flex-shrink: 0;
+    border-bottom: 1px solid #343741;
+}
+
+.Tabs.JCstart {
+    justify-content: flex-start;
+}
+
+.Tabs.JCend {
+    justify-content: flex-end;
+}
+
+.Tabs.JCcenter {
+    justify-content: center;
+}
+
+.Tabs.JCspace-between {
+    justify-content: space-between;
+}
+
+.Tabs.JCspace-around {
+    justify-content: space-around;
+}
+
+.Tabs.JCspace-evenly {
+    justify-content: space-evenly;
+}

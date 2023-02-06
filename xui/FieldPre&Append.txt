@@ -1,0 +1,35 @@
+import './FieldSearch.css';
+import '../Theme.css';
+import { 
+    Icon,
+    IconButton,
+    ContentGroupItem
+} from '../';
+
+function FieldSearch(props) {
+    let iconLeft, iconRight, buttonLeft, buttonRight, iconButtonLeft, iconButtonRight;
+    if(props.iconButtonRight) {
+        iconButtonRight = <IconButton icon={props.iconButtonRight} size="l" fill={props.iconButtonRightColor} id="FieldSearchIconRight" />;
+    }
+    return (
+        <div className="FieldSearchWrapper">
+            <Icon icon="SearchOutline" fill="white" height="24" width="24" paddingSize="l" />
+            <input className="FieldSearch" type="search" {...props} />
+            {iconButtonRight}
+        </div>
+    );
+}
+
+export default FieldSearch;
+
+.FieldSearch:focus, .FieldSearch:focus + .FieldSearchWrapper {
+    transition: all 0.5s ease-in-out;
+    border-bottom: 2px solid var(--primary);
+}
+
+.FieldSearchWrapper > .IconButton {
+    height: 38px;
+    width: 48px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 transparent,inset 0 0 0 1px rgba(255,255,255,0.1);
+}

@@ -1,0 +1,43 @@
+.Avatar {
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    vertical-align: middle;
+    overflow-x: hidden;
+    font-weight: 500;
+    /*background-color: var(--avatar);*/
+    border-radius: 50%;
+    font-family: var(--font-family);
+}
+
+.Avatar.Ss {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.Avatar.Sm {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14.4px;
+}
+
+.Avatar.Sl {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 19.2px;
+}
+
+.Avatar.Sxl {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 25.6px;
+}

@@ -1,0 +1,21 @@
+.Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon.Ps {
+    padding: 0px 3px 0px 3px;
+}
+
+.Icon.Pm {
+    padding: 0px 5px 0px 5px;
+}
+
+.Icon.Pl {
+    padding: 0px 8px 0px 8px;
+}
+
+.Icon.Pxl {
+    padding: 0px 10px 0px 10px;
+}

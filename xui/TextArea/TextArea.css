@@ -1,0 +1,32 @@
+.TextArea {
+    transition: all 0.5s ease-in-out;
+    max-width: 400px;
+    width: 100%;
+    height: 100px;
+    min-height: 75px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    border: none;
+    border-bottom: 0px solid var(--field-background);
+    border-radius: 3px;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-weight: 400;
+    letter-spacing: normal;
+    font-kerning: normal;
+    font-size: 14px;
+    color: var(--field-color);
+    margin-right: 6px;
+    box-shadow: 0 0 transparent,inset 0 0 0 1px rgba(255,255,255,0.1);
+    padding: 12px;
+    line-height: 1.5;
+    resize: vertical;
+}
+
+.TextArea:focus {
+    transition: all 0.5s ease-in-out;
+    border-bottom: 3.5px solid var(--primary);
+}

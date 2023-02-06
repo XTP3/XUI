@@ -1,0 +1,61 @@
+.ContentGroupItem {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.ContentGroupItem.Dcolumn {
+    flex-direction: column;
+    align-items: start;
+}
+
+.ContentGroupItem.Drow {
+    flex-direction: row;
+    align-items: center;
+}
+
+.ContentGroupItem.NoGrow {
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.ContentGroupItem.JCstart {
+    justify-content: flex-start;
+}
+
+.ContentGroupItem.JCend {
+    justify-content: flex-end;
+}
+
+.ContentGroupItem.JCcenter {
+    justify-content: center;
+}
+
+.ContentGroupItem.JCspace-between {
+    justify-content: space-between;
+}
+
+.ContentGroupItem.JCspace-around {
+    justify-content: space-around;
+}
+
+.ContentGroupItem.JCspace-evenly {
+    justify-content: space-evenly;
+}
+
+.ContentGroupItem.AIstretch {
+    align-items: stretch;
+}
+
+.ContentGroupItem.AIcenter {
+    align-items: center;
+}
+
+.ContentGroupItem.AIstart {
+    align-items: flex-start;
+}
+
+.ContentGroupItem.AIend {
+    align-items: flex-end;
+}
