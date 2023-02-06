@@ -1,5 +1,5 @@
 # About
-This is a lightweight custom React UI-component library.
+This is a lightweight React UI-component library.
 
 ![Alt text](preview.png?raw=true "Preview")
 
