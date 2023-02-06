@@ -5,7 +5,7 @@ This is a lightweight React UI-component library.
 
 ## Features
  - Over 30 custom components
- - Over 450+ Customizable icons
+ - Over 450+ customizable icons
  - Responsive (mobile-friendly)
  - Styleable & Customizable
 
