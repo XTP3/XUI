@@ -34,18 +34,13 @@ function    IconButton(props) {
         return size;
     }
 
-    if(props.loading) {
-        return <Loading fill="white" height={iconSize()} width={iconSize()} {...props} />;
-
-    }else {
-        return (
-            <div className={classNameGenerator()} onClick={props.onClick} {...props}>
-                <div className="IconButtonIcon" >
-                    <Icon icon={props.icon} fill={props.fill} height={iconSize()} width={iconSize()} />
-                </div>
+    return (
+        <div className={classNameGenerator()} onClick={props.onClick} {...props}>
+            <div className="IconButtonIcon" >
+                {props.loading ? <Loading fill="white" height={iconSize()} width={iconSize()} {...props} /> : <Icon icon={props.icon} fill={props.fill} height={iconSize()} width={iconSize()} />}
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default IconButton;
