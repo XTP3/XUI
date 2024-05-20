@@ -49,4 +49,4 @@ A style configuration file can be found inside the 'xui' parent directory, title
 
 #### Conclusion
 
-This project was originally made to cater to specific needs, but was designed to be easily used for anything. Unfortunately, adequate documentation for the components (props) does not yet exist.
+This project was originally made to cater to specific needs but was designed to be easily used for anything. Adequate documentation for the components (props) does not yet exist.
