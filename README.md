@@ -16,7 +16,7 @@ Place the "xui" folder within your "/components" directory.
 
 ## Usage
 
-To begin using any component, simply reference it inside your import statement.
+To begin using any component, simply reference it with an import statement.
 
 ```
 import {
